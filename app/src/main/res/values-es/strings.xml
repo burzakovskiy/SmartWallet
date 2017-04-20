@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Wallet</string>
+    <string name="action_filter">Filtrar los datos por período</string>
+    <string name="action_line">Seleccione el tipo de gráfico para mostrar</string>
+    <string name="activities">Entretenimiento</string>
+    <string name="car_payment">Coche</string>
+    <string name="credit_card">Tarjeta de crédito</string>
+    <string name="daily_reminder_text">Rellene su informe</string>
+    <string name="daily_reminder_title">Recordatorio diario Smart Wallet</string>
+    <string name="default_currency">Moneda predeterminada</string>
+    <string name="delete">Borrar</string>
+    <string name="delete_dialog_message">¿Seguro que quiere eliminar esta entrada?</string>
+    <string name="delete_dialog_title">Borrar entrada</string>
+    <string name="document_date">Fecha del documento</string>
+    <string name="document_share">Exportar datos del informe a otras aplicaciones</string>
+    <string name="done">Hecho</string>
+    <string name="expense">Gastos</string>
+    <string name="filter">Filtrar</string>
+    <string name="food">Comida</string>
+    <string name="gifts">Regalos</string>
+    <string name="got_it">Entendído</string>
+    <string name="history_is_empty">No hay actividad&#8230;</string>
+    <string name="income">Ingresos</string>
+    <string name="interest">Intereses</string>
+    <string name="last_month">Mes pasado</string>
+    <string name="last_week">Semana pasada</string>
+    <string name="line">Línea</string>
+    <string name="mortgage">Hipoteca</string>
+    <string name="ok">Hecho</string>
+    <string name="other_income">Otros ingresos</string>
+    <string name="other_expense">Otros gastos</string>
+    <string name="overview">Resumen</string>
+    <string name="period">Período</string>
+    <string name="personal">Gastos personales</string>
+    <string name="rental_income">Ingresos de alquiler</string>
+    <string name="salary">Salario</string>
+    <string name="share">Compartir</string>
+    <string name="taxes">Impuestos</string>
+    <string name="this_month">Mes actual</string>
+    <string name="this_week">Semana actual</string>
+    <string name="this_year">Año actual</string>
+    <string name="title_activity_report">Informe</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="trends">Tendencias</string>
+    <string name="utilities">Recibos</string>
+    <string name="value">Valor</string>
+    <string name="weekly_reminder_text">Revise su informe semanal</string>
+    <string name="no_network_title">Sin red</string>
+    <string name="no_network_message">No puede conectarse a Internet</string>
+    <string name="permission_required">Permiso requerido</string>
+    <string name="set_value">Por favor, defina el valor</string>
+    <string name="set_non_zero_value">Por favor, defina un valor distinto de cero</string>
+    <string name="duplicate_entry">Categoría ya se utiliza</string>
+    <string name="edit">Editar</string>
+    <string name="title_activity_edit">Editor</string>
+    <string name="balance">Balance</string>
+    <string name="income_is_empty">Ingresos está vacía. Pulse (+) para crear datos de</string>
+    <string name="expense_is_empty">Gastos está vacía. Pulse (+) para crear datos de</string>
+    <string name="no_data_to_show">No hay información para mostrar&#8230;</string>
+    <string name="create_budget">Crear presupuesto</string>
+    <string name="my_budget">Mi presupuesto</string>
+    <string name="budget_is_empty">No hay presupuesto&#8230;</string>
+    <string name="budget_exceeded">Presupuesto superado en un</string>
+    <string name="edit_budget">Editar presupuesto</string>
+    <string name="estimated_balance">Balance esperado</string>
+    <string name="budget_showcase">Crear presupuesto y la ejecución de pista</string>
+    <string name="goals_is_empty">Objetivo no se ha creado todavía o su saldo es pequeña</string>
+    <string name="create_goal">Crear su meta</string>
+    <string name="my_goal">Mi meta</string>
+    <string name="edit_goal">Editar meta</string>
+    <string name="goal_disclaimer">Este valor estimado se basa únicamente en los datos presentados</string>
+    <string name="goal_card_title">Tiempo restante:</string>
+    <string name="complete">Completar</string>
+    <string name="goals_congrats">¡Felicitaciones! Has conseguido el objetivo! Pruebe uno nuevo</string>
+    <string name="goal_showcase">Crear su objetivo y Smart Walletcalculará automáticamente el tiempo que necesita para lograrlo.</string>
+    <string name="current_password">Сontraseña actual</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="password">Contraseña</string>
+    <string name="password_match">Las contraseñas deben coincidir</string>
+    <string name="enter_password">Por favor, ingrese contraseña</string>
+    <string name="short_password">La contraseña debe tener al menos 6 símbolos</string>
+    <string name="wrong_password">Contraseña incorrecta</string>
+    <string name="password_created">Contraseña se ha creado correctamente</string>
+    <string name="password_changed">Contraseña se ha cambiado correctamente</string>
+    <string name="password_removed">Contraseña se ha eliminado correctamente</string>
+    <string name="password_not_set">La contraseña no se establece</string>
+    <string name="password_set">Se establece la contraseña. Para eliminar la contraseña, introduzca la contraseña actual y dejar otros campos en blanco.</string>
+
+
+    <string name="step_continue">Continuar</string>
+    <string name="step_finish">Terminar</string>
+    <string name="step_cancel">Cancelar</string>
+    <string name="select_country">Seleccionar país</string>
+    <string name="select_bank">Seleccionar el banco</string>
+    <string name="check">Comprobar</string>
+    <string name="check_successful">Verificación se ha realizado correctamente</string>
+    <string name="check_unsuccessful">Verificación no tuvo éxito</string>
+    <string name="raiffeisen_bank_aval_integration_description">Para la integración exitosa debe tener habilitado banca SMS</string>
+    <string name="wrong_card_number">Número de tarjeta incorrecto</string>
+    <string name="wrong_account_number">Número de cuenta incorrecto</string>
+    <string name="raiffeisen_bank_aval_integration_card_number">Ingrese los últimos 8 dígitos de su número de tarjeta</string>
+    <string name="raiffeisen_bank_aval_integration_account_number">Introduzca su número de cuenta (sólo para tarjetas de sueldos)</string>
+    <string name="oschadbank_bank_aval_integration_account_number">Introduzca su número de cuenta (opcional)</string>
+    <string name="refill">Aumento de una cuenta</string>
+    <string name="skip">Omitir</string>
+    <string name="save">Guardar</string>
+    <string name="pending_operation">Operación pendiente</string>
+    <string name="download_smart_wallet">Descargar Smart Wallet</string>
+    <string name="refer_text">He estado usando Smart Wallet y usted debe tratar.</string>
+    <string name="ukrsotsbank_integration_card_number">Introduzca los primeros y los 4 últimos dígitos de su número de tarjeta</string>
+    <string name="search_hint">Búsqueda en la historia</string>
+    <string name="search_history">Buscar la información por fecha, categorías y cantidades</string>
+    <string name="create_account">Crear carpeta</string>
+    <string name="my_account">Mi carpeta</string>
+    <string name="main_wallet">Principal de carpetas</string>
+    <string name="account_exists">Сarpeta con ese nombre ya existe</string>
+    <string name="transfer">Transferir</string>
+    <string name="select_account">Seleccionar carpeta</string>
+    <string name="account_removed">Carpeta se ha eliminado correctamente</string>
+    <string name="no_accounts">No tiene carpetas disponibles</string>
+    <string name="my_category">Mi categoría</string>
+    <string name="create_category">Crear categoría</string>
+    <string name="category_exists">Categoría con ese nombre ya existe</string>
+    <string name="wrong_name">Valor incorrecto</string>
+    <string name="select_category">Seleccione una categoría</string>
+    <string name="wipe_data">Eliminar los datos</string>
+    <string name="wipe_data_message">Todos los datos de cartera serán eliminados</string>
+    <string name="data_removed">Los datos se ha eliminado correctamente</string>
+    <string name="details_view">Haga clic para ver los detalles de las transacciones</string>
+    <string name="show">Demostrar</string>
+    <string name="weekly_report_from_till">Informe de %1$s hasta el %2$s</string>
+    <string name="weekly_report_summary_amazing">Su semana fue increíble</string>
+    <string name="weekly_report_summary_bad">Usted ha pasado mucho esta semana</string>
+    <string name="weekly_report_summary_general">Su resumen semanal</string>
+    <string name="weekly_report">Reporte semanal</string>
+    <string name="general_information">Resumen</string>
+    <string name="top_transactions">Top transacciones</string>
+    <string name="error">Error</string>
+    <string name="comment">Comentario</string>
+    <string name="invitation_cta">Intentalo</string>
+
+    <string-array name="drawer_menu">
+        <item>General</item>
+        <item>Presupuesto</item>
+        <item>Metas</item>
+        <item>Gráficas</item>
+        <item>Integración del banco</item>
+        <item>Actividad</item>
+
+        <item>Recomendar a un amigo</item>
+
+
+        <item>Mis categorías</item>
+        <item>Manejo de carteras</item>
+        <item>Ajustes</item>
+        <item>Desconectar</item>
+
+    </string-array>
+
+    <string-array name="report_activity_category_spinner">
+        <item>Salario</item>
+        <item>Ingresos de alquiler</item>
+        <item>Intereses</item>
+        <item>Regalos</item>
+        <item>Otros ingresos</item>
+        <item>Impuestos</item>
+        <item>Hipoteca</item>
+        <item>Tarjeta de crédito</item>
+        <item>Recibos</item>
+        <item>Comida</item>
+        <item>Coche</item>
+        <item>Gastos personales</item>
+        <item>Entretenimiento</item>
+        <item>Otros gastos</item>
+    </string-array>
+    <string-array name="report_activity_currency_spinner">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>UAH</item>
+        <item>RUB</item>
+        <item>BTC</item>
+        <item>PLN</item>
+        <item>KRW</item>
+    </string-array>
+
+    <string-array name="budget_period_spinner">
+        <item>Semanal</item>
+        <item>Mensual</item>
+
+    </string-array>
+
+    <string-array name="budget_card_periods">
+        <item>Semana actual</item>
+        <item>Semana pasada</item>
+        <item>Hace 2 semanas</item>
+
+        <item>Mes actual</item>
+        <item>Mes pasado</item>
+        <item>Hace 2 meses</item>
+
+    </string-array>
+
+    <string-array name="year_array">
+        <item>año</item>
+        <item>años</item>
+        <item>años</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>menos de un mes</item>
+        <item>mes</item>
+        <item>meses</item>
+        <item>meses</item>
+    </string-array>
+
+    <string-array name="bank_integration_countries">
+        <item>Ucrania</item>
+    </string-array>
+
+    <string-array name="bank_integration_banks_ukraine">
+        <item>Raiffeisen Bank Aval</item>
+        <item>Unicredit Bank</item>
+        <item>State Savings Bank</item>
+        <item>Ukrsibbank</item>
+    </string-array>
+
+    <string-array name="category_type_spinner">
+        <item>Ingresos</item>
+        <item>Gastos</item>
+
+    </string-array>
+</resources>

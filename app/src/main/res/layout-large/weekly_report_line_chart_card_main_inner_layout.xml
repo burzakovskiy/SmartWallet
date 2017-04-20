@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:text="@string/income"
+        android:textColor="@color/income"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/weekly_report_line_chart_card_income_chart_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layoutDirection="ltr"
+        android:orientation="vertical">
+
+
+
+
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/weekly_report_line_chart_income_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="4dp"
+            android:layoutDirection="ltr"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/weekly_report_line_chart_empty_income_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layoutDirection="ltr"
+            android:text="@string/no_data_to_show"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:text="@string/expense"
+        android:textColor="@color/expense"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/weekly_report_line_chart_card_expense_chart_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layoutDirection="ltr"
+        android:orientation="vertical">
+
+
+
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/weekly_report_line_chart_expense_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="4dp"
+            android:layoutDirection="ltr"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/weekly_report_line_chart_empty_expense_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layoutDirection="ltr"
+            android:text="@string/no_data_to_show"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

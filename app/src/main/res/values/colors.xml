@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#F57C00</color>
+    <color name="colorPagerTabStrip">#C8E6C9</color>
+
+    <color name="balance">#33B5E5</color>
+
+    <color name="income">#99CC00</color>
+    <color name="salary">#CAF0AF</color>
+    <color name="rental_income">#8BC372</color>
+    <color name="gifts">#629354</color>
+    <color name="interest">#566937</color>
+    <color name="other_income">#A5C283</color>
+
+
+    <color name="expense">#FF4444</color>
+    <color name="taxes">#AC4B49</color>
+    <color name="mortgage">#CA5554</color>
+    <color name="credit_card">#DD6665</color>
+    <color name="utilities">#A14E4F</color>
+    <color name="food">#D86B4A</color>
+    <color name="car_payment">#F4B994</color>
+    <color name="personal">#93432E</color>
+    <color name="activities">#EF9B9B</color>
+    <color name="other_expense">#C1502F</color>
+
+    <color name="card_backgroundExpand">#FAFAFA</color>
+    <color name="grey">#666666</color>
+    <color name="notification_card">#455A64</color>
+
+</resources>

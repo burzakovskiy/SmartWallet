@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+    defaultConfig {
+        applicationId "com.rbsoftware.pfm.personalfinancemanager"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 48
+        versionName "1.1.2.1"
+        // Enabling multidex support.
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    mavenLocal()
+
+    maven { url "http://cloudant.github.io/cloudant-sync-eap/repository" }
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+
+    mavenCentral()
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    testCompile 'junit:junit:4.12'
+    compile(group: 'com.cloudant', name: 'cloudant-sync-datastore-android', version: 'latest.release')
+    compile(group: 'com.cloudant', name: 'cloudant-sync-datastore-core', version: 'latest.release')
+
+    //Core card library
+    //Optional for RecyclerView
+    //Picasso library
+    compile files('libs/opencsv-3.6.jar')
+
+    //material drawer
+    //Google Material Icons
+    compile('com.mikepenz:materialdrawer:5.2.8@aar') {
+        transitive = true
+    }
+
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:cardview-v7:25.0.0'
+    compile 'com.android.support:recyclerview-v7:25.0.0'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.google.code.findbugs:jsr305:3.0.0'
+    compile 'com.google.android.gms:play-services-analytics:9.2.1'
+    compile 'com.google.android.gms:play-services-auth:9.2.1'
+    compile 'com.android.support:support-v4:25.0.0'
+    compile 'com.github.lecho:hellocharts-library:1.5.8@aar'
+    compile 'com.github.gabrielemariotti.cards:cardslib-core:2.1.0'
+    compile 'com.github.gabrielemariotti.cards:cardslib-recyclerview:2.1.0'
+    compile 'com.github.gabrielemariotti.cards:cardslib-cards:2.1.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.github.deano2390:MaterialShowcaseView:1.1.0'
+    compile 'com.mikepenz:google-material-typeface:2.2.0.1.original@aar'
+    compile 'com.daimajia.numberprogressbar:library:1.2@aar'
+    compile 'me.drozdzynski.library.steppers:steppers:0.3.3-SNAPSHOT'
+    compile 'com.afollestad:sectioned-recyclerview:0.2.3'
+    compile 'com.google.firebase:firebase-invites:9.2.1'
+    compile 'com.android.volley:volley:1.0.0'
+
+}
+
+apply plugin: 'com.google.gms.google-services'

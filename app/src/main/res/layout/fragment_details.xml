@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/account_summary_details_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/empty_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/empty_64dp"
+        android:layoutDirection="ltr"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/no_data_to_show"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="gone" />
+</RelativeLayout>

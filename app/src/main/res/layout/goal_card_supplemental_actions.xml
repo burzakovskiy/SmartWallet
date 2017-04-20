@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/actions_padding"
+    android:gravity="right"
+    android:paddingLeft="@dimen/actions_padding_left"
+    android:paddingRight="@dimen/actions_padding_left">
+
+    <ImageButton
+        android:id="@+id/goal_card_share"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_share_grey_24dp"
+        android:background="?android:selectableItemBackground"
+        style="@style/card.native.actions.button"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/share" />
+
+
+
+    <ImageButton
+        android:scaleType="fitCenter"
+        android:id="@+id/goal_card_edit"
+        android:background="?android:selectableItemBackground"
+        android:src="@drawable/ic_pencil_grey_24dp"
+        style="@style/card.native.actions.button"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/edit" />
+
+    <ImageButton
+        android:scaleType="fitCenter"
+        android:id="@+id/goal_card_complete"
+        android:background="?android:selectableItemBackground"
+        android:src="@drawable/ic_check_green_24dp"
+        style="@style/card.native.actions.button"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/complete" />
+
+</LinearLayout>

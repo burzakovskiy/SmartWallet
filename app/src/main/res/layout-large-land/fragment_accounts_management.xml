@@ -1,0 +1,31 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rbsoftware.pfm.personalfinancemanager.accounts.AccountsManagement">
+
+    <it.gmariotti.cardslib.library.recyclerview.view.CardRecyclerView
+        android:id="@+id/account_card_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:paddingEnd="64dp"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:paddingStart="64dp"
+        android:scrollbars="none"
+
+        card:list_card_layout_resourceID="@layout/native_recyclerview_card_layout" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_new_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add_white_24dp"
+        android:visibility="visible" />
+
+</android.support.design.widget.CoordinatorLayout>

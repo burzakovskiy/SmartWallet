@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Wallet</string>
+    <string name="activities">Развлечения</string>
+    <string name="car_payment">Автомобиль</string>
+    <string name="credit_card">Кредитная карта</string>
+    <string name="daily_reminder_text">Заполните Ваш отчёт</string>
+    <string name="daily_reminder_title">Ежедневное напоминание Smart Wallet</string>
+    <string name="default_currency">Валюта по умолчанию</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_dialog_message">Вы действительно хотите удалить запись?</string>
+    <string name="delete_dialog_title">Удалить запись</string>
+    <string name="document_date">Дата документа</string>
+    <string name="done">Ок</string>
+    <string name="expense">Затраты</string>
+    <string name="filter">Фильтр</string>
+    <string name="food">Питание</string>
+    <string name="gifts">Подарки</string>
+    <string name="income">Доходы</string>
+    <string name="interest">Проценты</string>
+    <string name="last_month">Прошлый месяц</string>
+    <string name="last_week">Прошлая неделя</string>
+    <string name="line">Поле</string>
+    <string name="mortgage">Ипотека</string>
+    <string name="other_expense">Другие затраты</string>
+    <string name="other_income">Другие доходы</string>
+    <string name="overview">Обзор</string>
+    <string name="period">Период</string>
+    <string name="personal">Личные</string>
+    <string name="rental_income">Доход с аренды</string>
+    <string name="salary">Зарплата</string>
+    <string name="share">Поделиться</string>
+    <string name="taxes">Налоги</string>
+    <string name="this_month">Текущий месяц</string>
+    <string name="this_week">Текущая неделя</string>
+    <string name="this_year">Текущий год</string>
+    <string name="title_activity_report">Отчёт</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="trends">Тенденции</string>
+    <string name="utilities">Коммунальные</string>
+    <string name="value">Знач.</string>
+    <string name="weekly_reminder_text">Ваш недельный отчёт готов</string>
+
+
+    <string name="action_filter">Отфильтруйте данные за период</string>
+    <string name="got_it">Понятно</string>
+    <string name="document_share">Экспортируйте отчёт в другие приложения</string>
+    <string name="ok">Ok</string>
+    <string name="action_line">Выберите какой график отобразить</string>
+    <string name="history_is_empty">История пустая&#8230;</string>
+    <string name="no_network_title">Нет сети</string>
+    <string name="no_network_message">Невозможно подключиться к сети</string>
+    <string name="permission_required">Необходимо разрешение</string>
+    <string name="set_value">Пожалуйста, укажите значение</string>
+    <string name="set_non_zero_value">Пожалуйста, укажите ненулевое значение</string>
+    <string name="duplicate_entry">Категория уже использована</string>
+    <string name="edit">Редактировать</string>
+    <string name="title_activity_edit">Редактор</string>
+    <string name="balance">Баланс</string>
+    <string name="income_is_empty">Доходы пустые. Нажмите (+) для создания данных</string>
+    <string name="expense_is_empty">Затраты пустые. Нажмите (+) для создания данных</string>
+    <string name="no_data_to_show">Нет данных для отображения&#8230;</string>
+    <string name="create_budget">Создать бюджет</string>
+    <string name="my_budget">Мой бюджет</string>
+    <string name="budget_is_empty">Бюджет отсутствует&#8230;</string>
+    <string name="budget_exceeded">Бюджет превышен на</string>
+    <string name="edit_budget">Редактировать бюджет</string>
+    <string name="estimated_balance">Ожидаемый баланс</string>
+    <string name="budget_showcase">Создайте бюджет и следите за его выполнением</string>
+    <string name="goals_is_empty">Цель не создана или у Вас маленький баланс</string>
+    <string name="create_goal">Создать цель</string>
+    <string name="my_goal">Моя цель</string>
+    <string name="edit_goal">Редактировать цель</string>
+    <string name="goal_disclaimer">Это всего лишь примерная оценка, построенная на введенных данных</string>
+    <string name="goal_card_title">Осталось времени:</string>
+    <string name="complete">Завершить</string>
+    <string name="goals_congrats">Поздравляем! Вы добились цели! Попробуйте новую</string>
+    <string name="goal_showcase">Создайте цель и Smart Wallet расчитает время необходимое для ее достижения.</string>
+    <string name="current_password">Текущий пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="password">Пароль</string>
+    <string name="password_match">Пароли должны совпадать</string>
+    <string name="enter_password">Пожалуйста, введите пароль</string>
+    <string name="short_password">Пароль должен быть из не менее 6 символов</string>
+    <string name="wrong_password">Неправильный пароль</string>
+    <string name="password_created">Пароль успешно создан</string>
+    <string name="password_changed">Пароль успешно изменен</string>
+    <string name="password_removed">Пароль успешно удален</string>
+    <string name="password_not_set">Пароль не установлен</string>
+    <string name="password_set">Пароль установлен. Чтобы убрать пароль, введите текущий пароль и оставьте остальные поля пустыми.</string>
+
+    <string name="step_continue">Продолжить</string>
+    <string name="step_finish">Завершить</string>
+    <string name="step_cancel">Отмена</string>
+    <string name="select_country">Выберите страну</string>
+    <string name="select_bank">Выберите банк</string>
+    <string name="check">Проверить</string>
+    <string name="check_successful">Проверка прошла успешно</string>
+    <string name="check_unsuccessful">Проверка прошла неуспешно</string>
+    <string name="raiffeisen_bank_aval_integration_description">Для успешной интеграции у Вас должен быть подключен SMS банкинг</string>
+    <string name="wrong_card_number">Неправильный номер карты</string>
+    <string name="wrong_account_number">Неправильный номер счёта</string>
+    <string name="raiffeisen_bank_aval_integration_card_number">Введите последние 8 цифр номера карты</string>
+    <string name="raiffeisen_bank_aval_integration_account_number">Введите Ваш номер счета (только для зарплатных карт)</string>
+    <string name="oschadbank_bank_aval_integration_account_number">Введите Ваш номер счета (необязательно)</string>
+    <string name="refill">Пополнение счёта</string>
+    <string name="skip">Пропустить</string>
+    <string name="save">Сохранить</string>
+    <string name="pending_operation">Подтвердите операцию</string>
+    <string name="download_smart_wallet">Загрузи Smart Wallet</string>
+    <string name="refer_text">Я использую Smart Wallet, тебе стоит его попробовать.</string>
+    <string name="ukrsotsbank_integration_card_number">Введите первые и последние 4 цифры номера карты</string>
+    <string name="search_hint">Искать в истории</string>
+    <string name="search_history">Ищите операции по дате, категориям и суммам</string>
+    <string name="create_account">Создать кошелек</string>
+    <string name="my_account">Мой кошелёк</string>
+    <string name="main_wallet">Основной кошелёк</string>
+    <string name="account_exists">Кошелек с таким названием уже существует</string>
+    <string name="transfer">Перенести</string>
+    <string name="select_account">Выберите кошелёк</string>
+    <string name="account_removed">Кошелёк успешно удалён</string>
+    <string name="no_accounts">У Вас нету доступных кошельков</string>
+    <string name="my_category">Моя категория</string>
+    <string name="create_category">Создать категорию</string>
+    <string name="category_exists">Категория с таким названием уже существует</string>
+    <string name="wrong_name">Неверное название</string>
+    <string name="select_category">Выберите категорию</string>
+    <string name="wipe_data">Удалить данные</string>
+    <string name="wipe_data_message">Все данные кошелька будут удалены</string>
+    <string name="data_removed">Данные были успешно удалены</string>
+    <string name="details_view">Нажмите на карточку для детального просмотра операций</string>
+    <string name="show">Показать</string>
+    <string name="weekly_report_from_till">Отчёт с %1$s по %2$s</string>
+    <string name="weekly_report_summary_amazing">У Вас была отличная неделя</string>
+    <string name="weekly_report_summary_bad">Вы много потратили на этой неделе</string>
+    <string name="weekly_report_summary_general">Коротко о прошедешей неделе</string>
+    <string name="weekly_report">Еженедельный отчет</string>
+    <string name="general_information">Общая информация</string>
+    <string name="top_transactions">Наибольшие операции</string>
+    <string name="error">Возникла ошибка</string>
+    <string name="comment">Комментарий</string>
+    <string name="invitation_cta">Попробовать</string>
+
+    <string-array name="drawer_menu">
+        <item>Главное</item>
+        <item>Бюджет</item>
+        <item>Цели</item>
+        <item>Графики</item>
+        <item>Интеграция с банком</item>
+        <item>История</item>
+
+        <item>Рекомендовать другу</item>
+
+
+        <item>Мои категории</item>
+        <item>Управление кошельками</item>
+        <item>Настройки</item>
+        <item>Выйти</item>
+
+    </string-array>
+
+    <string-array name="report_activity_category_spinner">
+        <item>Зарплата</item>
+        <item>Доход с аренды</item>
+        <item>Проценты</item>
+        <item>Подарки</item>
+        <item>Другие доходы</item>
+        <item>Налоги</item>
+        <item>Ипотека</item>
+        <item>Кредитная карта</item>
+        <item>Коммунальные</item>
+        <item>Питание</item>
+        <item>Автомобиль</item>
+        <item>Личные</item>
+        <item>Развлечения</item>
+        <item>Другие затраты</item>
+    </string-array>
+    <string-array name="report_activity_currency_spinner">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>UAH</item>
+        <item>RUB</item>
+        <item>BTC</item>
+        <item>PLN</item>
+        <item>KRW</item>
+    </string-array>
+    <string-array name="budget_period_spinner">
+        <item>Недельный</item>
+        <item>Месячный</item>
+
+    </string-array>
+
+    <string-array name="budget_card_periods">
+        <item>Текущая неделя</item>
+        <item>Прошлая неделя</item>
+        <item>Позапрошлая неделя</item>
+
+        <item>Текущий месяц</item>
+        <item>Прошлый месяц</item>
+        <item>Позапрошлый месяц</item>
+
+    </string-array>
+
+    <string-array name="year_array">
+        <item>год</item>
+        <item>года</item>
+        <item>лет</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>менее чем месяц</item>
+        <item>месяц</item>
+        <item>месяца</item>
+        <item>месяцев</item>
+    </string-array>
+
+    <string-array name="bank_integration_countries">
+        <item>Украина</item>
+    </string-array>
+
+    <string-array name="bank_integration_banks_ukraine">
+        <item>Райффайзен Банк Аваль</item>
+        <item>Укрсоцбанк</item>
+        <item>Ощадбанк</item>
+        <item>Укрсиббанк</item>
+    </string-array>
+
+    <string-array name="category_type_spinner">
+        <item>Доходы</item>
+        <item>Затраты</item>
+
+    </string-array>
+</resources>

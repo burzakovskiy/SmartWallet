@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="USD"
+        android:entries="@array/report_activity_currency_spinner"
+        android:entryValues="@array/report_activity_currency_spinner"
+        android:key="defaultCurrency"
+        android:title="@string/default_currency" />
+
+
+    <com.rbsoftware.pfm.personalfinancemanager.settings.PasswordPreference
+        android:key="password"
+        android:title="@string/password" />
+
+    <com.rbsoftware.pfm.personalfinancemanager.settings.WipeDataPreference
+        android:key="wipeData"
+        android:title="@string/wipe_data"
+        android:summary="@string/wipe_data_message"/>
+
+
+</PreferenceScreen>

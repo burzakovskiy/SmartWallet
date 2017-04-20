@@ -1,0 +1,46 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/goals_popup_anchor"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="goals.Goals">
+
+    <it.gmariotti.cardslib.library.recyclerview.view.CardRecyclerView
+        android:id="@+id/goals_card_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+
+        android:scrollbars="none"
+
+        card:list_card_layout_resourceID="@layout/native_recyclerview_material_card_layout" />
+
+    <TextView
+        android:id="@+id/emptyGoals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/empty_64dp"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:text="@string/goals_is_empty"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="gone" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_create_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add_white_24dp"
+        android:visibility="gone"
+        app:layout_behavior="com.rbsoftware.pfm.personalfinancemanager.utils.ScrollAwareFABBehavior" />
+
+
+</android.support.design.widget.CoordinatorLayout>

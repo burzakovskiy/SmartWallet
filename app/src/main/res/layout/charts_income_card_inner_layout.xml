@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="8dp">
+
+    <RelativeLayout
+        android:id="@+id/charts_card_income_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layoutDirection="ltr">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layoutDirection="ltr"
+            android:text="@string/income"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/income" />
+
+        <TextView
+            android:id="@+id/charts_card_income_value_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layoutDirection="ltr"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/income" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/chart_income_card_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/charts_card_income_header"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:weightSum="10">
+
+        <lecho.lib.hellocharts.view.PieChartView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/income_pie_chart"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="4"
+            android:layoutDirection="ltr" />
+
+        <LinearLayout
+            android:id="@+id/charts_income_card_legend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:paddingEnd="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingStart="8dp">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/empty_income_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/charts_card_income_header"
+        android:layout_centerInParent="true"
+
+        android:drawableTop="@drawable/empty_64dp"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:text="@string/no_data_to_show"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>

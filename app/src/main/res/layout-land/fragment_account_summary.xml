@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rbsoftware.pfm.personalfinancemanager.accountsummary.AccountSummary">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/account_summary_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layoutDirection="ltr"
+        android:paddingEnd="100dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:paddingStart="100dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_period"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layoutDirection="ltr"
+                android:text="@string/this_week"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <it.gmariotti.cardslib.library.view.CardViewNative
+                android:id="@+id/account_summary_weekly_report_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:visibility="gone" />
+
+            <it.gmariotti.cardslib.library.view.CardViewNative
+                android:id="@+id/account_summary_budget_alert_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:visibility="gone" />
+
+            <it.gmariotti.cardslib.library.view.CardViewNative
+                android:id="@+id/account_summary_goal_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:visibility="gone"
+                card:card_layout_resourceID="@layout/native_material_largeimage_text_card" />
+
+            <it.gmariotti.cardslib.library.view.CardViewNative
+                android:id="@+id/account_summary_balance_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" />
+
+
+            <it.gmariotti.cardslib.library.view.CardViewNative
+                android:id="@+id/account_summary_income_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" />
+
+            <it.gmariotti.cardslib.library.view.CardViewNative
+                android:id="@+id/account_summary_expense_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/account_summary_create_finance_document_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add_white_24dp"
+        android:visibility="gone"
+        app:layout_behavior="com.rbsoftware.pfm.personalfinancemanager.utils.ScrollAwareFABBehavior" />
+
+</android.support.design.widget.CoordinatorLayout>

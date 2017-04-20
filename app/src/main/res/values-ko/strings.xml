@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="app_name">스마트 지갑</string>
+
+
+    <!-- Drawer menu-->
+    <string-array name="drawer_menu">
+    <item>대시보드</item>
+    <item>예산</item>
+    <item>목표</item>
+    <item>차트</item>
+    <item>은행 통합</item>
+    <item>역사</item>
+    <item>친구에게 추천</item>
+    <item>내 카테고리</item>
+    <item>지갑 관리</item>
+    <item>설정</item>
+    <item>로그 아웃</item>
+  </string-array>
+
+    <string name="income">소득</string>
+    <string name="expense">비용</string>
+    <string name="title_activity_report">보고서</string>
+    <string name="done">완료</string>
+    <string name="salary">급여</string>
+    <string name="rental_income">임대 소득</string>
+    <string name="interest">이자</string>
+    <string name="gifts">선물</string>
+    <string name="other_income">기타 소득</string>
+    <string name="taxes">세금</string>
+    <string name="mortgage">모기지</string>
+    <string name="credit_card">신용카드</string>
+    <string name="utilities">유틸리티</string>
+    <string name="food">식품</string>
+    <string name="car_payment">자동차 할부금</string>
+    <string name="personal">개인</string>
+    <string name="activities">활동</string>
+    <string name="other_expense">기타 비용</string>
+    <string name="filter">필터</string>
+    <string name="this_week">이번 주</string>
+    <string name="this_month">이번 달</string>
+    <string name="last_week">지난 주</string>
+    <string name="last_month">지난 달</string>
+    <string name="this_year">올해</string>
+    <string name="trends">트렌드</string>
+    <string name="overview">개요</string>
+    <string name="step_continue">계속</string>
+    <string name="step_finish">마침</string>
+    <string name="step_cancel">취소</string>
+
+    <string-array name="report_activity_category_spinner">
+    <item>급여</item>
+    <item>임대 소득</item>
+    <item>이자</item>
+    <item>선물</item>
+    <item>기타 소득</item>
+    <item>세금</item>
+    <item>모기지</item>
+    <item>신용카드</item>
+    <item>유틸리티</item>
+    <item>식품</item>
+    <item>자동차 할부금</item>
+    <item>개인</item>
+    <item>활동</item>
+    <item>기타 비용</item>
+  </string-array>
+
+    <string-array name="report_activity_currency_spinner">
+    <item>USD</item>
+    <item>EUR</item>
+    <item>GBP</item>
+    <item>UAH</item>
+    <item>RUB</item>
+    <item>BTC</item>
+    <item>PLN</item>
+    <item>KRW</item>
+  </string-array>
+
+    <string-array name="budget_period_spinner">
+    <item>매주</item>
+    <item>매달</item>
+  </string-array>
+
+    <string-array name="budget_card_periods">
+    <item>이번 주</item>
+    <item>지난 주</item>
+    <item>2주 전</item>
+    <item>이번 달</item>
+    <item>지난 달</item>
+    <item>2달 전</item>
+  </string-array>
+
+    <string-array name="year_array">
+    <item>년</item>
+    <item>년</item>
+    <item>년</item>
+  </string-array>
+    <string-array name="month_array">
+    <item>1개월 미만</item>
+    <item>개월</item>
+    <item>개월</item>
+    <item>개월</item>
+  </string-array>
+
+    <string-array name="bank_integration_countries">
+    <item>우크라이나</item>
+  </string-array>
+    <string-array name="bank_integration_banks_ukraine">
+    <item>Raiffeisen Bank Aval</item>
+    <item>Unicredit Bank</item>
+    <item>State Savings Bank</item>
+    <item>Ukrsibbank</item>
+  </string-array>
+    <!-- <string-array name="report_activity_recurs_spinner">
+        <item>Never</item>
+        <item>Every week</item>
+        <item>Every month</item>
+        <item>Every 3 month</item>
+    </string-array>-->
+
+    <string-array name="category_type_spinner">
+    <item>소득</item>
+    <item>비용</item>
+  </string-array>
+
+    <string name="title_activity_settings">설정</string>
+
+
+    <string name="line">라인</string>
+    <string name="period">기간</string>
+    <string name="value">값</string>
+    <string name="delete">삭제</string>
+    <string name="delete_dialog_title">항목 삭제</string>
+    <string name="delete_dialog_message">이 항목을 삭제하시겠습니까?</string>
+    <string name="share">공유</string>
+    <string name="daily_reminder_title">Smart Wallet 일일 알림</string>
+    <string name="daily_reminder_text">재무활동 제출</string>
+    <string name="weekly_reminder_text">주간 보고서가 준비되었습니다</string>
+    <string name="document_date">문서일</string>
+    <string name="default_currency">기본 통화</string>
+
+    <!-- Showcase text-->
+    <string name="action_filter">기간 별로 데이터 필터링</string>
+    <string name="got_it">알겠습니다</string>
+    <string name="document_share">요약 보고서 데이터를 다른 앱으로 내보내기</string>
+    <string name="ok">확인</string>
+    <string name="action_line">표시할 차트 유형 선택</string>
+    <string name="history_is_empty">내역이 비어 있습니다...</string>
+    <string name="no_network_title">네트워크가 없습니다.</string>
+    <string name="no_network_message">인터넷에 연결할 수 없습니다.</string>
+    <string name="permission_required">허가 필요</string>
+    <string name="set_value">값을 설정하십시오.</string>
+    <string name="set_non_zero_value">0이 아닌 값을 설정하세요.</string>
+    <string name="duplicate_entry">카테고리가 이미 사용 중입니다.</string>
+    <string name="edit">편집</string>
+    <string name="title_activity_edit">편집기</string>
+    <string name="balance">잔액</string>
+    <string name="income_is_empty">소득이 비어 있습니다. (+)를 눌러 데이터를 만드십시오.</string>
+    <string name="expense_is_empty">비용이 비어 있습니다. (+)를 눌러 데이터를 만드십시오.</string>
+    <string name="no_data_to_show">표시할 데이터가 없습니다...</string>
+    <string name="create_budget">예산 수립</string>
+    <string name="my_budget">내 예산</string>
+    <string name="budget_is_empty">예산이 비어 있습니다...</string>
+    <string name="budget_exceeded">예산이 초과되었습니다.</string>
+    <string name="edit_budget">예산 편집</string>
+    <string name="estimated_balance">예상 잔액</string>
+    <string name="budget_showcase">예산을 수립하고 실행을 추적합니다.</string>
+    <string name="goals_is_empty">목표를 아직 설정하지 않았거나 잔액이 매우 적습니다.</string>
+    <string name="create_goal">목표 설정</string>
+    <string name="my_goal">내 목표</string>
+    <string name="edit_goal">목표 수정</string>
+    <string name="goal_disclaimer">이 값은 제출한 데이터를 토대로 한 예상 값입니다.</string>
+    <string name="goal_card_title">남은 시간:</string>
+    <string name="complete">완료</string>
+    <string name="goals_congrats">축하합니다! 목표를 달성했습니다! 새 목표를 설정하세요.</string>
+    <string name="goal_showcase">목표를 설정하면  Smart Wallet이 자동으로 목표 달성에 필요한 시간을 계산합니다.</string>
+    <string name="current_password">현재 암호</string>
+    <string name="new_password">신규 암호</string>
+    <string name="confirm_password">암호 확인</string>
+    <string name="password">암호</string>
+    <string name="password_match">암호가 일치해야 합니다.</string>
+    <string name="enter_password">암호를 입력하세요.</string>
+    <string name="short_password">암호는 6개 이상의 기호이어야 합니다.</string>
+    <string name="wrong_password">잘못된 암호</string>
+    <string name="password_created">암호가 만들어졌습니다.</string>
+    <string name="password_changed">암호가 변경되었습니다.</string>
+    <string name="password_removed">암호가 삭제되었습니다.</string>
+    <string name="password_not_set">암호가 설정되지 않았습니다.</string>
+    <string name="password_set">암호가 설정되었습니다. 암호를 제거하려면, 현재의 암호를 입력한 다음 다른 필드를 비워두십시오.</string>
+    <string name="select_country">국가 선택</string>
+    <string name="select_bank">은행 선택</string>
+    <string name="check">확인</string>
+    <string name="check_successful">확인 성공</string>
+    <string name="check_unsuccessful">확인 실패</string>
+    <string name="raiffeisen_bank_aval_integration_description">성공적인 통합을 위해서는 SMS 뱅킹이 활성화되어 있어야 합니다.</string>
+    <string name="wrong_card_number">잘못된 카드 번호</string>
+    <string name="wrong_account_number">잘못된 계좌 번호</string>
+    <string name="raiffeisen_bank_aval_integration_card_number">카드 번호의 마지막 8개 숫자를 입력하십시오.</string>
+    <string name="raiffeisen_bank_aval_integration_account_number">계좌 번호를 입력하십시오(급여 카드인 경우에만)</string>
+    <string name="oschadbank_bank_aval_integration_account_number">계좌 번호를 입력하십시오(선택 사항)</string>
+    <string name="refill">리필</string>
+    <string name="skip">건너뛰기</string>
+    <string name="save">저장</string>
+    <string name="pending_operation">보류 중 작업</string>
+    <string name="download_smart_wallet">Smart Wallet 다운로드</string>
+    <string name="refer_text">Smart Wallet을 사용해오고 있습니다. 꼭 써보세요.</string>
+    <string name="ukrsotsbank_integration_card_number">카드번호의 처음과 마지막 4자리를 입력하세요.</string>
+    <string name="search_hint">활동 검색</string>
+    <string name="search_history">날짜, 카테고리 및 금액 별 작업 검색</string>
+    <string name="create_account">지갑 만들기</string>
+    <string name="my_account">내 지갑</string>
+    <string name="main_wallet">메인 지갑</string>
+    <string name="account_exists">해당 이름으로 된 지갑이 이미 존재합니다.</string>
+    <string name="transfer">이전</string>
+    <string name="select_account">지갑 선택</string>
+    <string name="account_removed">지갑이 제거되었습니다.</string>
+    <string name="no_accounts">이용 가능한 지갑이 없습니다.</string>
+    <string name="my_category">내 카테고리</string>
+    <string name="create_category">카테고리 만들기</string>
+    <string name="category_exists">해당 이름의 카테고리가 이미 존재합니다.</string>
+    <string name="wrong_name">잘못된 이름</string>
+    <string name="select_category">카테고리 선택</string>
+    <string name="wipe_data">데이터 지우기</string>
+    <string name="wipe_data_message">모든 지갑 데이터가 삭제됩니다.</string>
+    <string name="data_removed">데이터가 삭제되었습니다.</string>
+    <string name="details_view">카드를 클릭하여 거래 세부내역을 봅니다.</string>
+    <string name="show">표시</string>
+    <string name="weekly_report_from_till">%1$s 에서 %2$s 까지의 보고서</string>
+    <string name="weekly_report_summary_amazing">1주일을 잘 보냈습니다. 잘 하셨습니다!</string>
+    <string name="weekly_report_summary_bad">이번 주에는 지출이 많았습니다.</string>
+    <string name="weekly_report_summary_general">주간 요약</string>
+    <string name="weekly_report">주간 보고서</string>
+    <string name="general_information">요약</string>
+    <string name="top_transactions">상위 거래</string>
+    <string name="error">오류</string>
+    <string name="comment">의견</string>
+    <string name="invitation_cta">사용해 보세요</string>
+
+
+</resources>

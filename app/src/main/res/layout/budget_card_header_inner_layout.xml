@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/historyCardHeader"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="24dp"
+    android:layout_marginRight="24dp"
+    android:layoutDirection="ltr">
+
+
+    <TextView
+        android:id="@+id/tv_budget_card_header_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layoutDirection="ltr"
+        android:text="Name"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tv_budget_card_header_estimated_balance_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_budget_card_header_name"
+
+        android:layoutDirection="ltr"
+        android:text="@string/estimated_balance"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tv_budget_card_header_estimated_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_budget_card_header_value"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layoutDirection="ltr"
+        android:text="XXX"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/balance" />
+
+
+    <TextView
+        android:id="@+id/tv_budget_card_header_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="4dp"
+        android:layoutDirection="ltr"
+        android:text="000"
+        android:textColor="@color/expense"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

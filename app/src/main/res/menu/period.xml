@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/thisWeek"
+        android:title="@string/this_week" />
+    <item
+        android:id="@+id/thisMonth"
+        android:title="@string/this_month" />
+    <item
+        android:id="@+id/lastWeek"
+        android:title="@string/last_week" />
+    <item
+        android:id="@+id/lastMonth"
+        android:title="@string/last_month" />
+    <item
+        android:id="@+id/thisYear"
+        android:title="@string/this_year" />
+</menu>

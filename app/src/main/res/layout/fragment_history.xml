@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".history.History">
+
+
+    <it.gmariotti.cardslib.library.recyclerview.view.CardRecyclerView
+        android:id="@+id/history_card_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="ltr"
+
+        android:scrollbars="none"
+        card:list_card_layout_resourceID="@layout/native_recyclerview_card_layout" />
+
+
+    <TextView
+        android:id="@+id/emptyHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableTop="@drawable/empty_64dp"
+        android:layoutDirection="ltr"
+        android:text="@string/history_is_empty"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="gone" />
+</RelativeLayout>

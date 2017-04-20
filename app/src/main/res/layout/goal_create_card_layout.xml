@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/report_wrapper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layoutDirection="ltr"
+
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_goal_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:hint="@string/my_goal"
+        android:inputType="textNoSuggestions"
+        android:maxLength="16" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/et_goal_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginStart="4dp"
+            android:hint="@string/value"
+            android:inputType="numberDecimal"
+            android:maxLength="8" />
+
+        <Spinner
+            android:id="@+id/goal_currency_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/et_goal_value"
+            android:layout_toEndOf="@+id/et_goal_value"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+
+
+            android:spinnerMode="dialog" />
+
+
+        <ImageButton
+            android:id="@+id/goal_create_card_upload_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/border_stroke"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_picture_grey_24dp" />
+
+        <ImageView
+            android:id="@+id/goal_create_card_image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toLeftOf="@+id/goal_create_card_upload_image" />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
